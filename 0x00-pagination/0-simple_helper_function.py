@@ -2,8 +2,6 @@
 """
 Module for task 0-simple_helper_function.
 """
-
-
 from typing import Tuple
 
 

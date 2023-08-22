@@ -2,6 +2,8 @@
 """
 Adds `get_page` method to `Server` class
 """
+
+
 import csv
 from typing import List, Tuple
 
