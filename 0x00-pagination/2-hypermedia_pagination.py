@@ -2,6 +2,8 @@
 """
 Adds `get_hyper` method to `Server` class
 """
+
+
 import csv
 from typing import Dict, List, Tuple, Union
 
@@ -69,4 +71,3 @@ class Server:
         return {'page_size': len(data), 'page': page,
                 'data': data, 'next_page': next_page,
                 'prev_page': prev_page, 'total_pages': int(total_pages)}
-                
