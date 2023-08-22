@@ -3,6 +3,7 @@
 Deletion-resilient hypermedia pagination
 """
 
+
 import csv
 import math
 from typing import Dict, List
@@ -62,4 +63,3 @@ class Server:
         next_index = focus[-1] if len(focus) - page_size == 1 else None
         return {'index': index, 'data': data,
                 'page_size': len(data), 'next_index': next_index}
-                
